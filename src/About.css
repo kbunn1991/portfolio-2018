@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Mono|Ubuntu');
+
+.aboutCont span {
+  color: #42A2BB;
+}
+
+.aboutCont {
+  width: 80vw;
+  height: 80vh;
+  padding: 10vh 10vw;
+  /* background-color: #25292A; */
+  background-color: #fff;
+  /* background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/dust_scratches.png); */
+  /* background-repeat: repeat; */
+  /* background-blend-mode: multiply; */
+}
+
+.portBoxCont {
+  width: 85%;
+  height: 94%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.whereAmI {
+  font-family: 'PT Mono';
+  margin-top: 2%;
+  margin-left: 2%;
+  position: absolute;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.whereAmI span {
+  display: inline;
+  background-color: #C57E83;
+  padding: 3px;
+  color: #fff;
+}
+
+.portBoxRow {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.portBox {
+  width: 270px; 
+  height: 270px;
+  background-color: #777;
+  background-blend-mode: multiply;
+  display: inline-block;
+  margin-right: 2%; 
+  margin-top: 2%;
+  background-size: cover;
+}
+
+.pic1 {
+  background-image: url(https://i.pinimg.com/564x/53/36/1d/53361ddb0955ed94bcc26edf3b77dbe6.jpg);
+}
+
+.pic2 {
+  background-image: url(https://i.pinimg.com/564x/0e/52/39/0e523922a1feee6e200fc4320fa1260d.jpg);
+}
+
+.pic3 {
+  background-image: url(https://i.pinimg.com/564x/df/30/bf/df30bf5be51ec7b125682b081ccc284e.jpg);
+}
+
+.pic4 {
+  background-image: url(https://i.pinimg.com/564x/a8/f5/62/a8f5627cc457f3eff57cbb49b26214cd.jpg);
+}
+
+.pic5 {
+  background-image: url(https://i.pinimg.com/564x/06/f8/b0/06f8b0d8b2c3aa9c8a5638776a315b64.jpg);
+}
+
+.pic6 {
+  background-image: url(https://i.pinimg.com/564x/07/77/16/077716723d318f5c1904a30b5a0b6771.jpg);
+}
+
+.pTitle {
+  color: #fff;
+  text-align: center;
+  font-family: 'Ubuntu';
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 50%;
+}
+
+.pInfo {
+  color: #fff;
+  /* background-color: #25292A; */
+  opacity: .0;
+  height: 26%;
+  padding: 2%;
+  width: 96%;
+  margin-top: 8%;
+  position: relative;
+  transition: opacity 0.5s ease-in-out;
+  font-family: 'PT Mono';
+  text-align: justify;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center; 
+  line-height: 150%;
+}
+
+.portBox:hover .pInfo {
+  opacity: 1;
+}
+
+.pTitle span {
+  display: inline;
+  background-color: #C57E83;
+  padding: 3px;
+  color: #fff;
+}
+
+.pInfo span {
+  display: inline;
+  background-color: #C57E83;
+  padding: 3px;
+  color: #fff;
+}

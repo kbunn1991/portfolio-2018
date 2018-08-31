@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Mono|Ubuntu');
+
+/* #CC8F8F */
+
+.headerCont {
+  width: 90vw;
+  height: 90vh;
+  padding: 5vh 5vw;
+  background-color: #25292A;
+  /* background-image: url(https://images.unsplash.com/photo-1530482817083-29ae4b92ff15?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=44f4aebbd1e1371d5bf7dc22016c5d29&auto=format&fit=crop&w=2551&q=80);
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-attachment: fixed; */
+  color: #fff;
+}
+
+h1 span {
+  color: rgb(65, 65, 65);
+}
+
+h1 {
+  font-family: 'Ubuntu';
+  font-size: 45px;
+  letter-spacing: 2px;
+  margin-top: 29vh;
+  text-transform: uppercase;
+}
+
+.underInfo {
+  font-family: 'PT Mono';
+  font-size: 11px;
+  letter-spacing: 4px;
+  color: #fff;
+  text-transform: uppercase;
+  width: 44vw;
+  text-align: justify;
+  line-height: 190%;
+  margin-left: 5vw;
+}
+
+.underInfo span {
+  color: #C57E83;
+}
+
+.skillz {
+  text-transform: lowercase;
+  position: relative;
+  margin-top: 40px;
+  letter-spacing: 2px;
+  font-size: 12px;
+  margin-left: 20px;
+}

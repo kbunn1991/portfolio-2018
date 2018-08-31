@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Mono|Ubuntu');
+
+h3 {
+  text-align: right; 
+  font-size: 12px;
+  letter-spacing: 3px;
+  font-family: 'PT Mono';
+  text-transform: uppercase;
+  transform: rotate(90deg);
+  transform-origin: right top 0vh;
+  position: fixed;
+  right: 0px;
+  top: 100vh;
+  width: 100vh;
+  text-align: center;
+  padding: 2%;
+  background-color: #25292A;
+}
+
+h3 a {
+  color: #fff!important;
+  text-decoration: none;
+  padding-bottom: 3px;
+  cursor: crosshair;
+}
+
+h3 a:hover {
+  text-shadow: 1px 2px #C57E83;
+}
+
+h3 a:focus {
+  border-bottom: 3px solid #C57E83;
+}
