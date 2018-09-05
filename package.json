@@ -4,6 +4,12 @@
   "private": true,
   "homepage": "https://kbunn1991.github.io/portfolio-2018/",
   "dependencies": {
+    "@fortawesome/fontawesome-common-types": "^0.2.4",
+    "@fortawesome/fontawesome-svg-core": "^1.2.4",
+    "@fortawesome/free-brands-svg-icons": "^5.3.1",
+    "@fortawesome/free-solid-svg-icons": "^5.3.1",
+    "@fortawesome/react-fontawesome": "^0.1.2",
+    "hover.css": "^2.3.2",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-scripts": "1.1.5",
@@ -16,7 +22,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d master build"
   },
   "devDependencies": {
     "gh-pages": "^1.2.0"
