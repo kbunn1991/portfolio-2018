@@ -4,23 +4,25 @@ import React from 'react';
 import Nav from './Nav';
 import './Header.css';
 
-export default function Header(props) {
+class Header extends React.Component {
   
-  return (
-    <div className="headerCont">
+  render() {
+    return (
+      <div className="headerCont">
 
-      <Nav />
+        <h1>
+          kait<span>lin</span> &lt;/&gt;
+        </h1>
+        <div className="underInfo">
+          Hello world! I'm Kait — an ATL-based full-stack developer and designer that makes beautiful, responsive websites and web applications. <span>Let's chat!</span>
 
-      <h1>
-        kait<span>lin</span> &lt;/&gt;
-      </h1>
-      <div className="underInfo">
-        Hello world! I'm Kait — an ATL-based full-stack developer and designer that makes beautiful, responsive websites and web applications. <span>Let's chat!</span>
-
-        <p className="skillz type-it">let <span>languages</span> = [css, HTML5, javascript, node.js];<br />
-        let <span>databases</span> = [sql, mongodb];<br />
-        let <span>libraries</span> = [react];</p>
+          <p className="skillz type-it">let <span>languages</span> = [css, HTML5, javascript, node.js];<br />
+          let <span>databases</span> = [sql, mongodb];<br />
+          let <span>libraries</span> = [react];</p>
+        </div>
       </div>
-    </div>
-  )
+    )
+  }
 }
+
+export default Header;
