@@ -18,8 +18,7 @@ class Header extends React.Component {
 
           <p className="skillz type-it">const <span>languages</span> = [css, HTML5, javascript, node.js];<br />
           const <span>databases</span> = [sql, mongodb];<br />
-          const <span>libraries</span> = [react, redux];<br />
-          const <span>tools</span> = [developer tools, github, postman]</p>
+          const <span>libraries</span> = [react, redux];</p>        
         </div>
       </div>
     )

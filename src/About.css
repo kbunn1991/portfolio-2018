@@ -52,7 +52,10 @@
   margin-top: 2%;
   background-size: cover;
   transition: 0.5s ease-in-out;
+}
 
+.portBox a {
+  text-decoration: none;
 }
 
 .portBox:hover {
