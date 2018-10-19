@@ -8,11 +8,7 @@
   width: 80vw;
   min-height: 80vh;
   padding: 10vh 10vw;
-  /* background-color: #25292A; */
   background-color: #fff;
-  /* background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/dust_scratches.png); */
-  /* background-repeat: repeat; */
-  /* background-blend-mode: multiply; */
 }
 
 .portBoxCont {
@@ -55,26 +51,33 @@
   margin-right: 2%; 
   margin-top: 2%;
   background-size: cover;
+  transition: 0.5s ease-in-out;
+
+}
+
+.portBox:hover {
+  background-color: #2B2B2B;
+  background-blend-mode: multiply;
 }
 
 .pic1 {
-  background-image: url(https://i.pinimg.com/564x/53/36/1d/53361ddb0955ed94bcc26edf3b77dbe6.jpg);
+  background-image: url(https://camo.githubusercontent.com/e196c5bc9c143690a98b5b6126e5dede1b840367/68747470733a2f2f63646e772e6e69636b7069632e686f73742f78627a4d506e2e706e67);
 }
 
 .pic2 {
-  background-image: url(https://i.pinimg.com/564x/0e/52/39/0e523922a1feee6e200fc4320fa1260d.jpg);
+  background-image: url(https://cdnw.nickpic.host/x7NIqd.md.png);
 }
 
 .pic3 {
-  background-image: url(https://i.pinimg.com/564x/df/30/bf/df30bf5be51ec7b125682b081ccc284e.jpg);
+  background-image: url(https://cdnw.nickpic.host/x7NmwD.png);
 }
 
 .pic4 {
-  background-image: url(https://i.pinimg.com/564x/a8/f5/62/a8f5627cc457f3eff57cbb49b26214cd.jpg);
+  background-image: url(https://user-images.githubusercontent.com/38081935/46889970-321c7f00-ce1a-11e8-8426-0d8b5ee1a434.png);
 }
 
 .pic5 {
-  background-image: url(https://i.pinimg.com/564x/06/f8/b0/06f8b0d8b2c3aa9c8a5638776a315b64.jpg);
+  background-image: url(https://cdnw.nickpic.host/x7NoW5.png);
 }
 
 .pic6 {
@@ -91,9 +94,14 @@
   margin-top: 50%;
 }
 
+.buttonz {
+  position: absolute;
+  top: -200%;
+  left: 15px;
+}
+
 .pInfo {
   color: #fff;
-  /* background-color: #25292A; */
   opacity: .0;
   height: 26%;
   padding: 2%;

@@ -38,6 +38,10 @@ h1 {
   color: #C57E83;
 }
 
+.underInfo a {
+  text-decoration: none;
+}
+
 .skillz {
   text-transform: lowercase;
   position: relative;
